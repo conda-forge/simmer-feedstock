@@ -10,7 +10,7 @@ source:
   sha256: 18edc1fdf153e14ee6b9c4476b50e58ad3dae62ea70daef0193b7262e76e2c70
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
@@ -45,6 +45,8 @@ test:
     - simmer.Examples.Shane
     - simmer.schemas
     - simmer.tests
+  commands:
+    - python3 -m unittest discover src
 
 about:
   home: https://github.com/arjunsavel/SImMER
