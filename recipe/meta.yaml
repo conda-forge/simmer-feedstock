@@ -47,6 +47,7 @@ test:
     - simmer.tests
   commands:
     - pwd
+    - ls
     - python3 -m unittest discover simmer
 
 about:
