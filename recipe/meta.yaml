@@ -48,7 +48,7 @@ test:
   commands:
     - pwd
     - ls
-    - python3 -m unittest discover $PREFIX/lib/simmer/src/simmer
+    - python3 -m unittest discover /home/conda/feedstock_root/build_artifacts/simmer_1599632813188/work_moved_simmer-0.3.9-py_1_noarch
 
 about:
   home: https://github.com/arjunsavel/SImMER
