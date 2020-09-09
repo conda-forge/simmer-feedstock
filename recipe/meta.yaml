@@ -48,7 +48,7 @@ test:
   commands:
     - pwd
     - ls
-    - python3 -m unittest discover $PREFIX/lib/simmer/src
+    - python3 -m unittest discover $PREFIX/lib/simmer/src/simmer
 
 about:
   home: https://github.com/arjunsavel/SImMER
