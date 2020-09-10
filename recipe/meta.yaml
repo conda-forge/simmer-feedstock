@@ -46,7 +46,7 @@ test:
     - simmer.schemas
     - simmer.tests
   commands:
-    - cd /home/conda/feedstock_root/build_artifacts/simmer_1599633860081/test_tmp
+    - cd /home/conda/feedstock_root/build_artifacts/src_cache
     - ls
     - python3 -m unittest discover simmer/src
 
