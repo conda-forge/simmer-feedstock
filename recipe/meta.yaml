@@ -46,7 +46,7 @@ test:
     - simmer.schemas
     - simmer.tests
   commands:
-    - apt-get install tree
+    - yum install tree
     - tree /home/conda
     - ls
     - python3 -m unittest discover simmer/src
