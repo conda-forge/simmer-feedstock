@@ -46,9 +46,9 @@ test:
     - simmer.schemas
     - simmer.tests
   commands:
-    - pwd
+    - cd /home/conda/feedstock_root/build_artifacts/simmer_1599633860081/test_tmp
     - ls
-    - python3 -m unittest discover /home/conda/feedstock_root/build_artifacts/simmer_1599632813188/work_moved_simmer-0.3.9-py_1_noarch
+    - python3 -m unittest discover simmer/src
 
 about:
   home: https://github.com/arjunsavel/SImMER
