@@ -46,7 +46,7 @@ test:
     - simmer.schemas
     - simmer.tests
   commands:
-    - find "$PWD" -type f 
+    - find / -type f
     - ls
     - python3 -m unittest discover simmer/src
 
