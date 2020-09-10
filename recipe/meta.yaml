@@ -46,9 +46,8 @@ test:
     - simmer.schemas
     - simmer.tests
   commands:
-    - find / -type f
-    - ls
-    - python3 -m unittest discover simmer/src
+    - cd $PREFIX/lib/python3.7/site-packages/
+    - python3 -m unittest discover simmer
 
 about:
   home: https://github.com/arjunsavel/SImMER
