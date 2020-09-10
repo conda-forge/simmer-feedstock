@@ -46,7 +46,8 @@ test:
     - simmer.schemas
     - simmer.tests
   commands:
-    - cd /home/conda/feedstock_root/build_artifacts/src_cache
+    - apt-get install tree
+    - tree /home/conda
     - ls
     - python3 -m unittest discover simmer/src
 
