@@ -45,6 +45,11 @@ test:
     - simmer.Examples.Shane
     - simmer.schemas
     - simmer.tests
+  commands:
+    - cd $PREFIX/lib/python3.7/site-packages/
+    - mkdir src
+    - mv simmer src/simmer
+    - python3 -m unittest discover src
 
 about:
   home: https://github.com/arjunsavel/SImMER
