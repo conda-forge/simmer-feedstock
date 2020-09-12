@@ -47,7 +47,9 @@ test:
     - simmer.tests
   commands:
     - cd $PREFIX/lib/python3.7/site-packages/
-    - python3 -m unittest discover simmer
+    - mkdir src
+    - mv simmer src/simmer
+    - python3 -m unittest discover src
 
 about:
   home: https://github.com/arjunsavel/SImMER
