@@ -5,11 +5,13 @@ Home: https://github.com/arjunsavel/SImMER
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/simmer-feedstock/blob/master/LICENSE.txt)
 
 Summary: An open-source astronomical image reduction pipeline.
 
+Development: https://github.com/arjunsavel/SImMER
 
+Documentation: https://simmer.readthedocs.io
 
 Current build status
 ====================
