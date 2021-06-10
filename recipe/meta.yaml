@@ -1,5 +1,5 @@
 {% set name = "simmer" %}
-{% set version = "0.3.10" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5bc0300bf8ae7e7da2383fc7c8accae8775b3dce0c3c515684c50b8d3b61c918
+  sha256: 79ad18f367304ef0982457822d641f18b92ae41cb83540aee02724d2957b403d
 
 build:
   number: 0
