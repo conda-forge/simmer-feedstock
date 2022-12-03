@@ -1,5 +1,5 @@
 {% set name = "simmer" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4da847c00cd8980ed6ea7cb710877fffce1c7d92c658af1fe33b267f7ee17c58
+  sha256: 23f5caaeffe180667c23cf5c02f5125a7334d68a5b699de75433006992dde617
 
 build:
   number: 0
@@ -17,25 +17,24 @@ build:
 requirements:
   host:
     - pip
-    - python >3.6
+    - python >3.8
   run:
-    - astropy =4.0
+    - astropy >=5.1
     - cerberus =1.3
     - matplotlib-base <3.1.1,>=3.0.1
-    - nbconvert =5.6.1
-    - nbsphinx =0.8.6
     - numpy >=1.19.1
     - openpyxl =3.0.7
     - pandas =1.2.3
     - pillow =8.2.0
     - pip
-    - pygments =2.6.1
     - python >3.6
     - pyyaml =5.3
     - scikit-image =0.18.1
     - scipy <1.5.3, >=1.1.0
     - tqdm
-    - photutils >=0.7.2
+    - photutils >=1.5.0
+    - numba
+    - emcee
 
 test:
   imports:
