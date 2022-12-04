@@ -10,7 +10,7 @@ source:
   sha256: 23f5caaeffe180667c23cf5c02f5125a7334d68a5b699de75433006992dde617
 
 build:
-  number: 3
+  number: 4
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -30,7 +30,7 @@ requirements:
     - python >=3.8
     - pyyaml =5.3
     - scikit-image =0.18.1
-    - scipy <1.5.3, >=1.1.0
+    - scipy >=1.6.0
     - tqdm
     - photutils >=1.5.0
     - numba
