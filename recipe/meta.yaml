@@ -30,7 +30,7 @@ requirements:
     - python >=3.8
     - pyyaml =5.3
     - scikit-image =0.18.1
-    - scipy <1.5.3, >=1.1.0
+    - scipy >=1.6.0
     - tqdm
     - photutils >=1.5.0
     - numba
