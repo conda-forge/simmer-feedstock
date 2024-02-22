@@ -10,7 +10,7 @@ source:
   sha256: 23f5caaeffe180667c23cf5c02f5125a7334d68a5b699de75433006992dde617
 
 build:
-  number: 5
+  number: 6
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -24,7 +24,7 @@ requirements:
     - matplotlib-base
     - numpy >=1.19.1
     - openpyxl =3.0.7
-    - pandas =1.2.3
+    - pandas >=1.2.3
     - pillow =8.2.0
     - pip
     - python >=3.8
