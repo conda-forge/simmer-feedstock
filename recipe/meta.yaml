@@ -28,7 +28,7 @@ requirements:
     - pillow =8.2.0
     - pip
     - python >=3.8
-    - pyyaml =5.3
+    - pyyaml >=5.3
     - scikit-image =0.18.1
     - scipy >=1.6.0
     - tqdm
